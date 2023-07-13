@@ -1,0 +1,19 @@
+include "/etc/wyrdrc"
+
+unbind "q"
+unbind "Q"
+unbind "w"
+unbind "s"
+unbind "a"
+unbind "d"
+unbind "H"
+unbind "L"
+
+bind "q" quit
+bind "w" previous_week
+bind "a" previous_day
+bind "d" next_day
+bind "s" next_week
+bind "H" previous_month
+bind "L" next_month
+
